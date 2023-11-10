@@ -1,0 +1,25 @@
+.each-product {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 5px;
+  /* height: 400px; */
+  width: 250px;
+  padding: 2rem;
+  margin: 0 1rem 1rem 1rem;
+}
+
+.product-image {
+  height: 200px;
+  width: 200px;
+}
+.product-name {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.product-price {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
